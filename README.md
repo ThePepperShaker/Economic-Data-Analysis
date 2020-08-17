@@ -1,4 +1,5 @@
 # Economic Data Analysis
+<<<<<<< HEAD
 A university project divided into three sections: 
 
 # Section 1 - Tidying, analyzing and visualizing data 
@@ -18,3 +19,11 @@ Part B ...
 
 
 All the code and the pdf are available in this repository. 
+=======
+A school project analysing economic data using R. The course was a first course in R which was mainly focused on learning the principles of data analysis and visualization. 
+
+## Components of this assignment 
+1. The first part consisted of tidying a messy dataset and aggregating and visualizing the data 
+2. The second part was a programming assignment to create a function to seasonally adjust a time series 
+3. The third part required analysis of various sources of economic data 
+>>>>>>> 4ed976310ee0a143b26ec3aac59da3886e4c17a3
