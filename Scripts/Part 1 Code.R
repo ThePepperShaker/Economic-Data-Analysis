@@ -54,7 +54,7 @@ aggregatedata3 <- tidydata %>%
 
 #Visualize the data by growth rates using the index as the y-axis and year as the x-axis.
 Plot <- ggplot() + 
-  geom_point(data = aggregatedata3, aes(x = year, y = index, shape = occupation))+                #Add scatter plot
+  geom_point(data = aggregatedata3, aes(x = year, y = index, shape = occupation))+                  #Add scatter plot
   geom_line(data = aggregatedata3, aes(x = year, y = index, shape = occupation, color = gender))+   #Add line graph
   geom_line(data = aggregatedata2, aes(x = year, y = index, color = gender), size = 1.4)+           #Add line graph
   scale_shape_manual(labels=c("Busdriver", "Cashier", "Nurse" ), values = c(0,1,8))+ #Specify shapes of data points
